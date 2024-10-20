@@ -1,0 +1,42 @@
+.dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    width: 50%;
+    margin: 40px auto;
+  }
+  
+  .image-preview {
+    display: flex;
+    flex-wrap: wrap; /* Wrap images to next line */
+    justify-content: center; /* Center images */
+    gap: 20px; /* Add gap between images */
+  }
+  
+  .image-preview img {
+    width: 40%; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin:50px;
+  }
+  
+  .image-item {
+    width: 100%;
+    margin:50px;
+  }
+  
+  .image-item img {
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
+    margin:50px;
+  }
+  .json1{
+    margin: 50px;
+  }
